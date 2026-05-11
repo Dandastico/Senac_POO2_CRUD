@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 @RequestMapping("/api")
 
 public class PessoaController {
-    // ROTA: POST http://localhost.8080/api/pessoa
+    // ROTA: POST http://localhost:8080/api/pessoa
     @PostMapping("/pessoa")
     public String postMethodName(@RequestBody Pessoa pessoa) {
         return "Pessoa cadastrada: " +
