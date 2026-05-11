@@ -18,7 +18,7 @@ public class AlunoController {
     public String postAluno(@RequestBody Aluno aluno) {
         return "Aluno: " + aluno.nome +
             "\nCurso: " + aluno.curso +
-            "\nIdade: " + aluno.idade +
+            "\nSemestre: " + aluno.semestre +
             "\n--------------------------------------" +
             "\nAluno cadastrado com sucesso";
     }
